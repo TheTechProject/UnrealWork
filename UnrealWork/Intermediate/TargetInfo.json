@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealWork",
+			"Path": "D:\\UnrealWork\\UnrealWork\\Source\\UnrealWork.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealWorkEditor",
+			"Path": "D:\\UnrealWork\\UnrealWork\\Source\\UnrealWorkEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

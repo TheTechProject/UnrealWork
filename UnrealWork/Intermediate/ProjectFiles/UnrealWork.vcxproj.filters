@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealWork.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{285F3B5D-B893-47C6-BB09-2A927957DC9E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealWork.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealWorkEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FCD35BAE-02A4-4780-AF20-9F95AE12F6FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealWork">
+      <UniqueIdentifier>{B42FD1E6-4781-487B-94E8-38DA57D9D3EC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealWork\FloatingActor.cpp">
+      <Filter>Source\UnrealWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealWork\FloatingActor.h">
+      <Filter>Source\UnrealWork</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\UnrealWork\UnrealWork.Build.cs">
+      <Filter>Source\UnrealWork</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealWork\UnrealWork.cpp">
+      <Filter>Source\UnrealWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealWork\UnrealWork.h">
+      <Filter>Source\UnrealWork</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealWork\UnrealWorkGameModeBase.cpp">
+      <Filter>Source\UnrealWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealWork\UnrealWorkGameModeBase.h">
+      <Filter>Source\UnrealWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
