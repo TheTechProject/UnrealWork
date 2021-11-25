@@ -1426,3 +1426,265 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.25-15.13.19:133][886]LogWorld: UWorld::CleanupWorld for M_Gam, bSessionEnded=true, bCleanupResources=true
 [2021.11.25-15.13.19:133][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2021.11.25-15.13.19:203][886]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2021.11.25-15.17.30:854][ 82]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2021.11.25-15.17.30:867][ 82]LogContentBrowser: Creating deferred item: NewWorld
+[2021.11.25-15.17.37:581][822]LogContentBrowser: Attempting asset rename: NewWorld -> M_PlayerControlledCamera
+[2021.11.25-15.17.37:583][822]LogContentBrowser: End creating deferred item NewWorld
+[2021.11.25-15.17.45:239][600]LogContentBrowser: Attempting asset rename: M_PlayerControlledCamera -> M_GameControlledCamera
+[2021.11.25-15.17.45:280][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/M_GameControlledCamera" FILE="D:/UnrealWork/UnrealWork/Content/Maps/M_GameControlledCamera.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.25-15.17.45:309][600]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2021.11.25-15.17.45:312][600]LogSavePackage: Moving 'D:/UnrealWork/UnrealWork/Saved/M_GameControlledCameraBE3CECAA475530C00608E990CEF10202.tmp' to 'D:/UnrealWork/UnrealWork/Content/Maps/M_GameControlledCamera.umap'
+[2021.11.25-15.17.45:313][600]LogFileHelpers: Saving map 'M_GameControlledCamera' took 0.034
+[2021.11.25-15.17.45:390][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.11.25-15.17.45:421][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.11.25-15.17.45:442][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.11.25-15.17.45:469][600]AssetCheck: New page: Asset Save: M_GameControlledCamera
+[2021.11.25-15.17.45:469][600]LogContentValidation: Display: Validating World /Game/Maps/M_GameControlledCamera.M_GameControlledCamera
+[2021.11.25-15.17.49:063][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.11.25-15.17.53:667][972]LogSlate: Window 'Save Content' being destroyed
+[2021.11.25-15.17.53:712][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyFloatingActor" FILE="D:/UnrealWork/UnrealWork/Content/Blueprints/BP_MyFloatingActor.uasset" SILENT=true
+[2021.11.25-15.17.53:719][972]LogSavePackage: Moving 'D:/UnrealWork/UnrealWork/Saved/BP_MyFloatingActor6C414D8C430CA65A9DB64C95A97BDD7E.tmp' to 'D:/UnrealWork/UnrealWork/Content/Blueprints/BP_MyFloatingActor.uasset'
+[2021.11.25-15.17.53:744][972]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_GameControlledCamera.M_GameControlledCamera
+[2021.11.25-15.17.53:744][972]Cmd: MAP LOAD FILE="D:/UnrealWork/UnrealWork/Content/Maps/M_GameControlledCamera.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.25-15.17.53:744][972]LightingResults: New page: Lighting Build
+[2021.11.25-15.17.53:744][972]LoadErrors: New page: Loading map: M_GameControlledCamera.umap
+[2021.11.25-15.17.53:767][972]LogWorld: UWorld::CleanupWorld for M_QuickStart, bSessionEnded=true, bCleanupResources=true
+[2021.11.25-15.17.53:767][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.25-15.17.53:767][972]MapCheck: New page: Map Check
+[2021.11.25-15.17.53:767][972]LightingResults: New page: Lighting Build
+[2021.11.25-15.17.53:788][972]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.25-15.17.53:792][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.11.25-15.17.53:792][972]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_GameControlledCamera'.
+[2021.11.25-15.17.53:792][972]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.25-15.17.53:793][972]LogAIModule: Creating AISystem for world M_GameControlledCamera
+[2021.11.25-15.17.53:818][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.11.25-15.17.53:821][972]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.25-15.17.53:821][972]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.066ms to complete.
+[2021.11.25-15.17.53:821][972]LogFileHelpers: Loading map 'M_GameControlledCamera' took 0.077
+[2021.11.25-15.17.53:835][972]AssetCheck: New page: Asset Save: BP_MyFloatingActor
+[2021.11.25-15.17.53:835][972]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_MyFloatingActor.BP_MyFloatingActor
+[2021.11.25-15.17.57:862][353]LogSlate: Window 'BP_MyFloatingActor' being destroyed
+[2021.11.25-15.17.57:866][353]LogSlate: Window 'BP_MyFloatingActor' being destroyed
+[2021.11.25-15.17.57:906][353]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.11.25-15.17.57:906][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.25-15.18.08:960][794]LogObjectTools: Deleting 1 worlds: /Game/Maps/M_GameControlledCamera.M_GameControlledCamera
+[2021.11.25-15.18.08:960][794]LogObjectTools: Currently 6 active worlds: /Game/Maps/M_GameControlledCamera.M_GameControlledCamera, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_4, /Engine/Transient.World_5
+[2021.11.25-15.18.10:253][794]LogSlate: Window 'Unable to delete level' being destroyed
+[2021.11.25-15.18.10:258][794]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2021.11.25-15.18.11:393][913]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.11.25-15.18.11:425][913]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_QuickStart.M_QuickStart
+[2021.11.25-15.18.11:426][913]Cmd: MAP LOAD FILE="D:/UnrealWork/UnrealWork/Content/Maps/M_QuickStart.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.25-15.18.11:426][913]LightingResults: New page: Lighting Build
+[2021.11.25-15.18.11:426][913]LoadErrors: New page: Loading map: M_QuickStart.umap
+[2021.11.25-15.18.11:452][913]LogWorld: UWorld::CleanupWorld for M_GameControlledCamera, bSessionEnded=true, bCleanupResources=true
+[2021.11.25-15.18.11:452][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.25-15.18.11:452][913]MapCheck: New page: Map Check
+[2021.11.25-15.18.11:452][913]LightingResults: New page: Lighting Build
+[2021.11.25-15.18.11:500][913]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.25-15.18.11:528][913]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.11.25-15.18.11:528][913]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_QuickStart'.
+[2021.11.25-15.18.11:531][913]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.25-15.18.11:531][913]LogAIModule: Creating AISystem for world M_QuickStart
+[2021.11.25-15.18.11:549][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.11.25-15.18.11:551][913]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.25-15.18.11:551][913]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.06ms to complete.
+[2021.11.25-15.18.11:551][913]LogFileHelpers: Loading map 'M_QuickStart' took 0.126
+[2021.11.25-15.18.12:469][ 14]LogObjectTools: Deleting 1 worlds: /Game/Maps/M_GameControlledCamera.M_GameControlledCamera
+[2021.11.25-15.18.12:469][ 14]LogObjectTools: Currently 6 active worlds: /Game/Maps/M_QuickStart.M_QuickStart, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_4, /Engine/Transient.World_5
+[2021.11.25-15.18.12:485][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.11.25-15.18.13:443][ 14]LogSlate: Window 'Delete Assets' being destroyed
+[2021.11.25-15.18.13:461][ 14]LogWorld: UWorld::CleanupWorld for M_GameControlledCamera, bSessionEnded=true, bCleanupResources=true
+[2021.11.25-15.18.13:461][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.25-15.18.13:510][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.11.25-15.18.13:528][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.11.25-15.18.13:541][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.11.25-15.18.16:735][281]LogSlate: Window 'New Level' being destroyed
+[2021.11.25-15.18.16:740][281]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.25-15.18.16:764][281]LightingResults: New page: Lighting Build
+[2021.11.25-15.18.16:764][281]LoadErrors: New page: Loading map: Template_Default.umap
+[2021.11.25-15.18.16:786][281]LogWorld: UWorld::CleanupWorld for M_QuickStart, bSessionEnded=true, bCleanupResources=true
+[2021.11.25-15.18.16:786][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.25-15.18.16:786][281]MapCheck: New page: Map Check
+[2021.11.25-15.18.16:786][281]LightingResults: New page: Lighting Build
+[2021.11.25-15.18.16:802][281]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.25-15.18.16:805][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.11.25-15.18.16:822][281]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.11.25-15.18.16:827][281]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2021.11.25-15.18.16:828][281]LogAIModule: Creating AISystem for world Untitled_1
+[2021.11.25-15.18.16:831][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.25-15.18.16:855][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.11.25-15.18.16:863][281]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.25-15.18.16:863][281]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.171ms to complete.
+[2021.11.25-15.18.16:863][281]LogFileHelpers: Loading map 'Template_Default' took 0.123
+[2021.11.25-15.18.29:392][646]LogSlate: Window 'Save Level As' being destroyed
+[2021.11.25-15.18.29:412][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/M_GameControlledCamera" FILE="D:/UnrealWork/UnrealWork/Content/Maps/M_GameControlledCamera.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.25-15.18.29:475][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.11.25-15.18.29:482][646]LogSavePackage: Moving 'D:/UnrealWork/UnrealWork/Saved/M_GameControlledCameraB812400342ECD59977487E81BED576E6.tmp' to 'D:/UnrealWork/UnrealWork/Content/Maps/M_GameControlledCamera.umap'
+[2021.11.25-15.18.29:487][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/M_GameControlledCamera_BuiltData" FILE="D:/UnrealWork/UnrealWork/Content/Maps/M_GameControlledCamera_BuiltData.uasset" SILENT=true
+[2021.11.25-15.18.29:503][646]LogSavePackage: Moving 'D:/UnrealWork/UnrealWork/Saved/M_GameControlledCamera_BuiltData641CB1E44B0665BFB1743C929631E4B1.tmp' to 'D:/UnrealWork/UnrealWork/Content/Maps/M_GameControlledCamera_BuiltData.uasset'
+[2021.11.25-15.18.29:508][646]LogFileHelpers: Saving map 'M_GameControlledCamera' took 0.112
+[2021.11.25-15.18.29:513][646]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.25-15.18.29:514][646]LogContentValidation: Display: Validating World /Game/Maps/M_GameControlledCamera.M_GameControlledCamera
+[2021.11.25-15.18.29:514][646]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/M_GameControlledCamera_BuiltData.M_GameControlledCamera_BuiltData
+[2021.11.25-15.18.40:455][802]LogActorFactory: Actor Factory created SM_TableRound
+[2021.11.25-15.18.41:762][954]LogActorFactory: Actor Factory created SM_TableRound
+[2021.11.25-15.18.42:654][ 16]LogActorFactory: Actor Factory created SM_Chair
+[2021.11.25-15.18.43:628][116]LogActorFactory: Actor Factory created SM_Chair
+[2021.11.25-15.18.51:000][863]LogActorFactory: Actor Factory created SM_Chair
+[2021.11.25-15.18.51:447][908]LogActorFactory: Actor Factory created SM_Chair
+[2021.11.25-15.18.58:350][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2021.11.25-15.19.07:044][476]LogActorFactory: Actor Factory created SM_Statue
+[2021.11.25-15.19.09:329][710]LogActorFactory: Actor Factory created SM_Statue
+[2021.11.25-15.19.18:476][711]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.25-15.20.32:174][416]LogActorFactory: Actor Factory created Cube
+[2021.11.25-15.20.34:046][614]LogActorFactory: Actor Factory created Cube
+[2021.11.25-15.22.51:758][804]Candidate modules for hot reload:
+[2021.11.25-15.22.51:759][804]  UnrealWork
+[2021.11.25-15.22.51:759][804]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealWork,3356 UnrealWorkEditor Win64 Development -Project="D:/UnrealWork/UnrealWork/UnrealWork.uproject" "D:/UnrealWork/UnrealWork/UnrealWork.uproject"  -IgnoreJunk]
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: New page: Compilation - 25 Nov 2021, 15:23:14
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealWork).
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Invalidating makefile for UnrealWorkEditor (source file added)
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Parsing headers for UnrealWorkEditor
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealWork\UnrealWork\UnrealWork.uproject" "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UnrealWorkEditor\Development\UnrealWorkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\SH248212\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Reflection code generated for UnrealWorkEditor in 15.3509114 seconds
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Building UnrealWorkEditor...
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Building 8 actions with 8 processes...
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [1/8] UnrealWork.init.gen.cpp
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [2/8] FloatingActor.gen.cpp
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [3/8] CPP_CameraDirector.cpp
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [4/8] FloatingActor.cpp
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [5/8] CPP_CameraDirector.gen.cpp
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [6/8] UE4Editor-UnrealWork-3356.lib
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:      Creating library D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-3356.lib and object D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-3356.exp
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [7/8] UE4Editor-UnrealWork-3356.dll
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:      Creating library D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-3356.suppressed.lib and object D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-3356.suppressed.exp
+[2021.11.25-15.23.14:584][804]CompilerResultsLog:   [8/8] UnrealWorkEditor.target
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Total time in Parallel executor: 3.08 seconds
+[2021.11.25-15.23.14:584][804]CompilerResultsLog: Total execution time: 22.71 seconds
+[2021.11.25-15.23.14:584][804]LogMainFrame: MainFrame: Module compiling took 22.830 seconds
+[2021.11.25-15.23.14:614][804]LogClass: Could not find existing class CPP_CameraDirector in package /Script/UnrealWork for HotReload, assuming new class
+[2021.11.25-15.23.14:614][804]LogClass: Could not find existing class FloatingActor in package /Script/UnrealWork for HotReload, assuming new class
+[2021.11.25-15.23.14:622][804]LogHotReload: Re-instancing FloatingActor after hot-reload.
+[2021.11.25-15.23.14:624][804]LogActor: Warning: BP_MyFloatingActor_C /Engine/Transient.World_5:PersistentLevel.BP_MyFloatingActor_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.11.25-15.23.14:625][804]LogActor: Warning: BP_MyFloatingActor_C /Engine/Transient.World_4:PersistentLevel.MyFloatingActor_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.11.25-15.23.14:634][804]LogActor: Warning: FloatingActor /Engine/Transient.World_0:PersistentLevel.FloatingActor_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.11.25-15.23.14:649][804]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UnrealWork' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.11.25-15.23.14:652][804]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.25-15.23.14:755][804]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3604 classes and 861 folders.
+[2021.11.25-15.23.14:760][804]Display: HotReload took 23.0s.
+[2021.11.25-15.23.14:767][804]Warning: HotReload operation took 23.0s.
+[2021.11.25-15.23.14:807][804]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.11.25-15.23.15:338][804]LogHotReload: New module detected: UE4Editor-UnrealWork-3356.dll
+[2021.11.25-15.23.15:399][805]LogHotReload: Starting Hot-Reload from IDE
+[2021.11.25-15.23.15:433][805]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UnrealWork' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2021.11.25-15.23.15:439][805]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.25-15.23.15:455][805]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0157 seconds. Added 3604 classes and 861 folders.
+[2021.11.25-15.23.15:467][805]Display: HotReload took  0.1s.
+[2021.11.25-15.23.16:337][807]LogActor: Warning: FloatingActor /Engine/Transient.World_0:PersistentLevel.FloatingActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.11.25-15.28.44:720][784]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2021.11.25-15.28.44:729][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/M_GameControlledCamera" FILE="D:/UnrealWork/UnrealWork/Saved/Autosaves/Game/Maps/M_GameControlledCamera_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.11.25-15.28.44:738][784]LogSavePackage: Moving 'D:/UnrealWork/UnrealWork/Saved/M_GameControlledCamera_Auto17544C1E94B2C2C2FA171068881C021BD.tmp' to 'D:/UnrealWork/UnrealWork/Saved/Autosaves/Game/Maps/M_GameControlledCamera_Auto1.umap'
+[2021.11.25-15.28.44:739][784]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/M_GameControlledCamera' took 0.185
+[2021.11.25-15.28.44:739][784]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.185
+[2021.11.25-15.29.47:907][ 73]Candidate modules for hot reload:
+[2021.11.25-15.29.47:907][ 73]  UnrealWork
+[2021.11.25-15.29.47:907][ 73]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealWork,8590 UnrealWorkEditor Win64 Development -Project="D:/UnrealWork/UnrealWork/UnrealWork.uproject" "D:/UnrealWork/UnrealWork/UnrealWork.uproject"  -IgnoreJunk]
+[2021.11.25-15.29.47:917][ 73]Warning: Starting HotReload took  0.0s.
+[2021.11.25-15.29.55:195][782]CompilerResultsLog: New page: Compilation - 25 Nov 2021, 15:29:55
+[2021.11.25-15.29.55:195][782]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealWork).
+[2021.11.25-15.29.55:195][782]CompilerResultsLog: Parsing headers for UnrealWorkEditor
+[2021.11.25-15.29.55:195][782]CompilerResultsLog:   Running UnrealHeaderTool "D:\UnrealWork\UnrealWork\UnrealWork.uproject" "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UnrealWorkEditor\Development\UnrealWorkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\SH248212\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.25-15.29.55:195][782]CompilerResultsLog: Reflection code generated for UnrealWorkEditor in 4.8850895 seconds
+[2021.11.25-15.29.55:195][782]CompilerResultsLog: Building UnrealWorkEditor...
+[2021.11.25-15.29.55:195][782]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.25-15.29.55:195][782]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.11.25-15.29.55:195][782]CompilerResultsLog:   [1/6] CPP_CameraDirector.cpp
+[2021.11.25-15.29.55:195][782]CompilerResultsLog:   D:\UnrealWork\UnrealWork\Source\UnrealWork\CPP_CameraDirector.cpp(5): fatal error C1083: Cannot open include file: 'Kisment/GameplayStatics.h': No such file or directory
+[2021.11.25-15.29.55:195][782]CompilerResultsLog:   [2/6] UnrealWork.init.gen.cpp
+[2021.11.25-15.29.55:195][782]CompilerResultsLog:   [3/6] CPP_CameraDirector.gen.cpp
+[2021.11.25-15.29.55:195][782]LogMainFrame: MainFrame: Module compiling took 7.295 seconds
+[2021.11.25-15.29.55:195][782]Warning: HotReload failed, recompile failed
+[2021.11.25-15.30.29:024][722]Candidate modules for hot reload:
+[2021.11.25-15.30.29:024][722]  UnrealWork
+[2021.11.25-15.30.29:024][722]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealWork,9760 UnrealWorkEditor Win64 Development -Project="D:/UnrealWork/UnrealWork/UnrealWork.uproject" "D:/UnrealWork/UnrealWork/UnrealWork.uproject"  -IgnoreJunk]
+[2021.11.25-15.30.29:029][722]Warning: Starting HotReload took  0.0s.
+[2021.11.25-15.30.30:100][783]LogSlate: Window 'Message Log' being destroyed
+[2021.11.25-15.30.30:106][783]LogSlate: Window 'Message Log' being destroyed
+[2021.11.25-15.30.32:357][  8]CompilerResultsLog: New page: Compilation - 25 Nov 2021, 15:30:32
+[2021.11.25-15.30.32:357][  8]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealWork).
+[2021.11.25-15.30.32:357][  8]CompilerResultsLog: Building UnrealWorkEditor...
+[2021.11.25-15.30.32:357][  8]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.25-15.30.32:357][  8]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.11.25-15.30.32:357][  8]CompilerResultsLog:   [1/4] CPP_CameraDirector.cpp
+[2021.11.25-15.30.32:357][  8]CompilerResultsLog:   [2/4] UE4Editor-UnrealWork-9760.lib
+[2021.11.25-15.30.32:358][  8]CompilerResultsLog:      Creating library D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-9760.lib and object D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-9760.exp
+[2021.11.25-15.30.32:358][  8]CompilerResultsLog:   [3/4] UE4Editor-UnrealWork-9760.dll
+[2021.11.25-15.30.32:358][  8]CompilerResultsLog:      Creating library D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-9760.suppressed.lib and object D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UE4Editor-UnrealWork-9760.suppressed.exp
+[2021.11.25-15.30.32:358][  8]CompilerResultsLog:   [4/4] UnrealWorkEditor.target
+[2021.11.25-15.30.32:358][  8]CompilerResultsLog: Total time in Parallel executor: 2.36 seconds
+[2021.11.25-15.30.32:358][  8]CompilerResultsLog: Total execution time: 3.22 seconds
+[2021.11.25-15.30.32:358][  8]LogMainFrame: MainFrame: Module compiling took 3.338 seconds
+[2021.11.25-15.30.32:382][  8]LogClass: Could not find existing class CPP_CameraDirector in package /Script/UnrealWork for HotReload, assuming new class
+[2021.11.25-15.30.32:391][  8]LogHotReload: Re-instancing CPP_CameraDirector after hot-reload.
+[2021.11.25-15.30.32:404][  8]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UnrealWork' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.11.25-15.30.32:408][  8]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.25-15.30.32:503][  8]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3604 classes and 861 folders.
+[2021.11.25-15.30.32:508][  8]Display: HotReload took  3.5s.
+[2021.11.25-15.30.46:859][698]LogEditor: Attempting to add actor of class 'CPP_CameraDirector' to level at 0.00,-330.00,20.00
+[2021.11.25-15.30.47:531][775]LogEditor: Attempting to add actor of class 'CPP_CameraDirector' to level at -250.00,-850.00,210.00
+[2021.11.25-15.30.48:091][838]LogEditor: Attempting to add actor of class 'CPP_CameraDirector' to level at -10.00,-290.00,20.00
+[2021.11.25-15.30.50:600][134]LogEditor: Attempting to add actor of class 'CPP_CameraDirector' to level at -250.00,-860.00,230.00
+[2021.11.25-15.30.51:369][225]LogEditor: Attempting to add actor of class 'CPP_CameraDirector' to level at -90.00,-350.00,20.00
+[2021.11.25-15.31.34:331][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.11.25-15.31.37:251][885]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.11.25-15.32.08:515][340]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.25-15.32.08:520][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.25-15.32.08:520][340]PIE: New page: PIE session: M_GameControlledCamera (25 Nov 2021, 15:32:08)
+[2021.11.25-15.32.08:543][340]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_M_GameControlledCamera
+[2021.11.25-15.32.08:545][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002398s)
+[2021.11.25-15.32.08:546][340]LogAIModule: Creating AISystem for world M_GameControlledCamera
+[2021.11.25-15.32.08:547][340]LogPlayLevel: PIE: World Init took: (0.001604s)
+[2021.11.25-15.32.08:547][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/M_GameControlledCamera.M_GameControlledCamera to /Game/Maps/UEDPIE_0_M_GameControlledCamera.M_GameControlledCamera (0.004133s)
+[2021.11.25-15.32.08:638][340]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.11.25-15.32.08:639][340]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.25-15.32.08:640][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.25-15.32.08:640][340]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.25-15.32.08:640][340]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.25-15.32.08:641][340]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.11.25-15.32.08:641][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.25-15.32.08:641][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.25-15.32.08:641][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.25-15.32.08:642][340]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.25-15.32.08:642][340]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.25-15.32.08:642][340]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.25-15.32.08:643][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.25-15.32.08:643][340]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.11.25-15.32.08:644][340]LogInit: FAudioDevice initialized.
+[2021.11.25-15.32.08:644][340]LogAudio: Display: Audio Device (ID: 11) registered with world 'M_GameControlledCamera'.
+[2021.11.25-15.32.08:651][340]LogLoad: Game class is 'GameModeBase'
+[2021.11.25-15.32.08:653][340]LogWorld: Bringing World /Game/Maps/UEDPIE_0_M_GameControlledCamera.M_GameControlledCamera up for play (max tick rate 0) at 2021.11.25-15.32.08
+[2021.11.25-15.32.08:653][340]LogWorld: Bringing up level for play took: 0.000840
+[2021.11.25-15.32.08:653][340]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.11.25-15.32.08:661][340]PIE: Server logged in
+[2021.11.25-15.32.08:662][340]PIE: Play in editor total start time 0.143 seconds.
+[2021.11.25-15.32.19:633][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.25-15.32.19:633][635]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_M_GameControlledCamera
+[2021.11.25-15.32.19:633][635]LogWorld: UWorld::CleanupWorld for M_GameControlledCamera, bSessionEnded=true, bCleanupResources=true
+[2021.11.25-15.32.19:634][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.25-15.32.19:646][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.25-15.32.19:653][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.25-15.32.19:671][635]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.25-15.32.19:671][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.25-15.32.19:672][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.25-15.32.19:672][635]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.11.25-15.32.19:675][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.25-15.32.19:680][635]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.11.25-15.32.19:709][636]LogPlayLevel: Display: Destroying online subsystem :Context_18

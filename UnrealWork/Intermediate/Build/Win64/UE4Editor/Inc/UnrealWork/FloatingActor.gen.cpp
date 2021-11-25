@@ -61,15 +61,19 @@ void EmptyLinkFunctionForGeneratedCodeFloatingActor() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFloatingActor_Statics::NewProp_VisualMesh_MetaData[] = {
 		{ "Category", "FloatingActor" },
+		{ "Comment", "// Mesh on the object\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "FloatingActor.h" },
+		{ "ToolTip", "Mesh on the object" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFloatingActor_Statics::NewProp_VisualMesh = { "VisualMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFloatingActor, VisualMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFloatingActor_Statics::NewProp_VisualMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFloatingActor_Statics::NewProp_VisualMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatSpeed_MetaData[] = {
 		{ "Category", "FloatingActor" },
+		{ "Comment", "// The speeds the cube moves at\n" },
 		{ "ModuleRelativePath", "FloatingActor.h" },
+		{ "ToolTip", "The speeds the cube moves at" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatSpeed = { "FloatSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFloatingActor, FloatSpeed), METADATA_PARAMS(Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFloatingActor_Statics::NewProp_FloatSpeed_MetaData)) };
@@ -112,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeFloatingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFloatingActor, 266915386);
+	IMPLEMENT_CLASS(AFloatingActor, 3574929865);
 	template<> UNREALWORK_API UClass* StaticClass<AFloatingActor>()
 	{
 		return AFloatingActor::StaticClass();
