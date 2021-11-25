@@ -1688,3 +1688,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.25-15.32.19:675][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.11.25-15.32.19:680][635]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
 [2021.11.25-15.32.19:709][636]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.11.25-15.38.56:117][677]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.11.25-15.38.56:120][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/M_GameControlledCamera" FILE="D:/UnrealWork/UnrealWork/Saved/Autosaves/Game/Maps/M_GameControlledCamera_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.11.25-15.38.56:129][677]LogSavePackage: Moving 'D:/UnrealWork/UnrealWork/Saved/M_GameControlledCamera_Auto27F4F955D4774558459AF8FA32BCD9DEB.tmp' to 'D:/UnrealWork/UnrealWork/Saved/Autosaves/Game/Maps/M_GameControlledCamera_Auto2.umap'
+[2021.11.25-15.38.56:130][677]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/M_GameControlledCamera' took 0.050
+[2021.11.25-15.38.56:130][677]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
