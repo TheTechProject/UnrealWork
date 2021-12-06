@@ -7,10 +7,12 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UnrealWorkEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\CollidingPawn.cpp.obj"
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\CPP_CameraDirector.cpp.obj"
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\FloatingActor.cpp.obj"
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UnrealWork.cpp.obj"
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UnrealWorkGameModeBase.cpp.obj"
+"D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\CollidingPawn.gen.cpp.obj"
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\CPP_CameraDirector.gen.cpp.obj"
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\FloatingActor.gen.cpp.obj"
 "D:\UnrealWork\UnrealWork\Intermediate\Build\Win64\UE4Editor\Development\UnrealWork\UnrealWork.init.gen.cpp.obj"
