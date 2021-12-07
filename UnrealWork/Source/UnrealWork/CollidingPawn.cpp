@@ -27,6 +27,28 @@ ACollidingPawn::ACollidingPawn()
 		SphereVisual->SetRelativeLocation(FVector(0.0f, 0.0f, -40.0f));
 		SphereVisual->SetWorldScale3D(FVector(0.8f));
 	}
+
+	ParticleSystem = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("MovementParticles"));
+	ParticleSystem->SetupAttachment(SphereVisual);
+	ParticleSystem->bAutoActivate = false;
+	ParticleSystem->SetRelativeLocation(FVector(-20.0f, 0.0f, 20.0f));
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> ParticleAsset(TEXT("/Game/StarterContent/Particles/P_Fire.P_Fire"));
+	if (ParticleAsset.Succeeded())
+	{
+		ParticleSystem->SetTemplate(ParticleAsset.Object);
+	}
+
+	USpringArmComponent* SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraAttachementArm"));
+	SpringArm->SetupAttachment(RootComponent);
+	SpringArm->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
+	SpringArm->TargetArmLength = 400.0f;
+	SpringArm->bEnableCameraLag = true;
+	SpringArm->CameraLagSpeed = 3.0f;
+
+	UCameraComponent* Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("ActualCamera"));
+	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+
+	AutoPossessPlayer = EAutoReceiveInput::Player0;
 }
 
 // Called when the game starts or when spawned

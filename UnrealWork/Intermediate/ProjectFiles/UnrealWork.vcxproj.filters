@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealWork.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9197895D-322A-445D-BCCF-1AB63899FBE7}</UniqueIdentifier>
+      <UniqueIdentifier>{35156248-8C77-41E0-BC5E-83D301BF0B02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealWork.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{38C9CAFE-59BE-484A-856D-4B9F43FCD8D0}</UniqueIdentifier>
+      <UniqueIdentifier>{F04E3EBD-5C73-49CA-9422-C72077B427BD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,22 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\UnrealWork">
-      <UniqueIdentifier>{8395F67E-39CB-49F0-B396-607C4EBE1343}</UniqueIdentifier>
+      <UniqueIdentifier>{43B4AB5C-F827-46F9-8301-E6799D2D9193}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealWork\CollidingPawn.cpp">
       <Filter>Source\UnrealWork</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealWork\CollidingPawn.h">
+      <Filter>Source\UnrealWork</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealWork\CollidingPawnMovementComponent.cpp">
+      <Filter>Source\UnrealWork</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealWork\CollidingPawnMovementComponent.h">
       <Filter>Source\UnrealWork</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\UnrealWork\CPP_CameraDirector.cpp">

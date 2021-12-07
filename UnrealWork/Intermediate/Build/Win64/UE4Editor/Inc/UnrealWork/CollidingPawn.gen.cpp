@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeCollidingPawn() {}
 	UNREALWORK_API UClass* Z_Construct_UClass_ACollidingPawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_UnrealWork();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 // End Cross Module References
 	void ACollidingPawn::StaticRegisterNativesACollidingPawn()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeCollidingPawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ParticleSystem_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ParticleSystem;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeCollidingPawn() {}
 		{ "ModuleRelativePath", "CollidingPawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACollidingPawn_Statics::NewProp_ParticleSystem_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CollidingPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACollidingPawn_Statics::NewProp_ParticleSystem = { "ParticleSystem", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACollidingPawn, ParticleSystem), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACollidingPawn_Statics::NewProp_ParticleSystem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACollidingPawn_Statics::NewProp_ParticleSystem_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACollidingPawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACollidingPawn_Statics::NewProp_ParticleSystem,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACollidingPawn_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACollidingPawn>::IsAbstract,
 	};
@@ -54,11 +70,11 @@ void EmptyLinkFunctionForGeneratedCodeCollidingPawn() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ACollidingPawn_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ACollidingPawn_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ACollidingPawn_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACollidingPawn_Statics::Class_MetaDataParams))
@@ -72,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeCollidingPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACollidingPawn, 893686056);
+	IMPLEMENT_CLASS(ACollidingPawn, 4111221047);
 	template<> UNREALWORK_API UClass* StaticClass<ACollidingPawn>()
 	{
 		return ACollidingPawn::StaticClass();
